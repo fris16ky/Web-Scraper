@@ -1,0 +1,4 @@
+# Web-Scraper Description
+This is a personal project that I created in a day or two from my love of an animated show; One Piece. One Piece is notorious for being a very long show, so I wanted to track how much of my life I've spent watching it! 
+# How?
+There's a website called MyAnimeList that allows you to create an account and track which animated shows/movies you've watched, along with how many episodes. Everytime I watch a One Piece Episode or Movie, I track it there. This script uses Selenium to simulate a Google Chrome tab opening (to get the dynamic fields of the HTML), grabs the names of the shows/movies and takes their hrefs as well. With the hrefs, I then used BeautifulSoup to find how many episodes of One Piece I've watched, along with the "Duration" found in each page. Then, it's basic arithmetic to count up the number of minutes/hours/days I've spent watching my favorite show!
